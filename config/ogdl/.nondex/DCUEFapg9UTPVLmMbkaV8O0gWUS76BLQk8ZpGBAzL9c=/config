@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/shiro/config/ogdl/.nondex
+nondexJarDir=/home/ch61/shiro/config/ogdl/.nondex
+nondexExecid=DCUEFapg9UTPVLmMbkaV8O0gWUS76BLQk8ZpGBAzL9c=
+nondexLogging=CONFIG
+test=

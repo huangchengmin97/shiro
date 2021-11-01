@@ -1,0 +1,436 @@
+[INFO] bank.SecureBankService Bank service started
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 1
+
+[INFO] mgt.AbstractValidatingSessionManager Enabling session validation scheduler...
+[INFO] bank.SecureBankService Creating new account for Bob Smith
+[INFO] bank.SecureBankService Getting owner of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Bob Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.092]
+[INFO] bank.SecureBankService Getting active status of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Bob Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.092]
+[INFO] bank.SecureBankService Getting balance of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Bob Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.092]
+[INFO] bank.SecureBankService Getting transactions of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Bob Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.092]
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 2
+
+[INFO] bank.SecureBankService Creating new account for Everett Smith
+[INFO] bank.SecureBankService Getting owner of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting active status of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Making deposit of 50.0 into account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting owner of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting active status of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Making deposit of 300.0 into account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting owner of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting active status of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Making deposit of 85.0 into account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting owner of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting active status of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting owner of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting active status of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.167]
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 3
+
+[INFO] bank.SecureBankService Creating new account for Zoe Smith
+[INFO] bank.SecureBankService Getting owner of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting active status of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting balance of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting transactions of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting balance of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting transactions of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Making deposit of 500.0 into account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting owner of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting active status of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting balance of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting transactions of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting balance of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting transactions of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Making withdrawal of 100.0 from account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting owner of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting active status of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting balance of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting transactions of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting balance of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting transactions of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Making withdrawal of 75.0 from account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting owner of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting active status of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting balance of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting transactions of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting balance of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting transactions of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Making withdrawal of 125.0 from account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting owner of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting active status of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting balance of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting transactions of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting owner of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting active status of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting balance of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankService Getting transactions of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:41:33.238]
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 4
+
+[INFO] bank.SecureBankService Creating new account for Wally Smith
+[INFO] bank.SecureBankService Getting owner of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Wally Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.299]
+[INFO] bank.SecureBankService Getting active status of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Wally Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.299]
+[INFO] bank.SecureBankService Getting balance of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Wally Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.299]
+[INFO] bank.SecureBankService Getting transactions of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Wally Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.299]
+[INFO] bank.SecureBankService Making withdrawal of 100.0 from account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Wally Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.299]
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 5
+
+[INFO] bank.SecureBankService Creating new account for Frank Smith
+[INFO] bank.SecureBankService Getting owner of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankService Getting active status of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankService Getting balance of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankService Getting transactions of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankService Getting balance of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankService Getting transactions of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankService Making deposit of 50.0 into account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankService Getting owner of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankService Getting active status of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankService Getting balance of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankService Getting transactions of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankService Making withdrawal of 100.0 from account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Frank Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.353]
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 6
+
+[INFO] bank.SecureBankService Creating new account for Chris Smith
+[INFO] bank.SecureBankService Getting owner of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.407]
+[INFO] bank.SecureBankService Getting active status of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.407]
+[INFO] bank.SecureBankService Getting balance of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.407]
+[INFO] bank.SecureBankService Getting transactions of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.407]
+[INFO] bank.SecureBankService Closing account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.407]
+[INFO] bank.SecureBankService Getting owner of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.407]
+[INFO] bank.SecureBankService Getting active status of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.407]
+[INFO] bank.SecureBankService Getting balance of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.407]
+[INFO] bank.SecureBankService Getting transactions of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.407]
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 7
+
+[INFO] bank.SecureBankService Creating new account for Gerry Smith
+[INFO] bank.SecureBankService Getting owner of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting active status of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting balance of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting transactions of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting balance of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting transactions of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Making deposit of 385.0 into account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting owner of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=385.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting active status of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=385.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting balance of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=385.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting transactions of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=385.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Closing account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=true,balance=385.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting owner of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=false,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting active status of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=false,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting balance of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=false,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankService Getting transactions of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Gerry Smith,isActive=false,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.461]
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 8
+
+[INFO] bank.SecureBankService Creating new account for Zoe Smith
+[INFO] bank.SecureBankService Getting owner of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting active status of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Making deposit of 500.0 into account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting owner of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting active status of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Making withdrawal of 500.0 from account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting owner of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting active status of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting owner of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting active status of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.515]
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 9
+
+[INFO] bank.SecureBankService Creating new account for Joe Smith
+[INFO] bank.SecureBankService Getting owner of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.571]
+[INFO] bank.SecureBankService Getting active status of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.571]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.571]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.571]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.571]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.571]
+[INFO] bank.SecureBankService Making deposit of 250.0 into account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.571]
+[INFO] bank.SecureBankService Getting owner of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Joe Smith,isActive=true,balance=250.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.571]
+[INFO] bank.SecureBankService Getting active status of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Joe Smith,isActive=true,balance=250.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.571]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Joe Smith,isActive=true,balance=250.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.571]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Joe Smith,isActive=true,balance=250.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.571]
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 10
+
+[INFO] bank.SecureBankService Creating new account for Chris Smith
+[INFO] bank.SecureBankService Getting owner of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.624]
+[INFO] bank.SecureBankService Getting active status of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.624]
+[INFO] bank.SecureBankService Getting balance of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.624]
+[INFO] bank.SecureBankService Getting transactions of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.624]
+[INFO] bank.SecureBankService Closing account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.624]
+[INFO] bank.SecureBankService Getting owner of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.624]
+[INFO] bank.SecureBankService Getting active status of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.624]
+[INFO] bank.SecureBankService Getting balance of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.624]
+[INFO] bank.SecureBankService Getting transactions of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.624]
+[INFO] bank.SecureBankService Closing account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.624]
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 11
+
+[INFO] bank.SecureBankService Creating new account for Al Smith
+[INFO] bank.SecureBankService Getting owner of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting active status of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Making deposit of 500.0 into account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting owner of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting active status of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Making withdrawal of 100.0 from account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting owner of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting active status of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting owner of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting active status of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:41:33.678]
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 12
+
+[INFO] bank.SecureBankService Creating new account for Chris Smith
+[INFO] bank.SecureBankService Getting owner of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.735]
+[INFO] bank.SecureBankService Getting active status of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.735]
+[INFO] bank.SecureBankService Getting balance of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.735]
+[INFO] bank.SecureBankService Getting transactions of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:41:33.735]
+[INFO] bank.SecureBankService Stopping bank service...
+[INFO] bank.SecureBankService Bank service stopped

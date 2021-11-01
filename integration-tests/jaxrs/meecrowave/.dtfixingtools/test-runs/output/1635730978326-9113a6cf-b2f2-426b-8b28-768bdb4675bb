@@ -1,0 +1,104 @@
+[2021-10-31 20:42:59,856][[32mINFO [m][           main][oyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-34131"]
+[2021-10-31 20:42:59,866][[32mINFO [m][           main][.catalina.core.StandardService] Starting service [Tomcat]
+[2021-10-31 20:42:59,866][[32mINFO [m][           main][e.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-10-31 20:42:59,872][[32mINFO [m][           main][oyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-34131"]
+[2021-10-31 20:42:59,886][[32mINFO [m][           main][g.apache.meecrowave.Meecrowave] --------------- http://localhost:34131
+[2021-10-31 20:43:00,031][[32mINFO [m][           main][.catalina.core.StandardContext] Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+[2021-10-31 20:43:00,031][[32mINFO [m][           main][.catalina.core.StandardContext] Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+[2021-10-31 20:43:00,031][[32mINFO [m][           main][.catalina.core.StandardContext] Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+[2021-10-31 20:43:00,136][[32mINFO [m][           main][ans.OWBTomcatWebScannerService] OpenWebBeans scanning:
+[2021-10-31 20:43:00,137][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     ${maven}/cxf-integration-cdi-3.4.3.jar
+[2021-10-31 20:43:00,137][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     ${maven}/meecrowave-core-1.2.11.jar
+[2021-10-31 20:43:00,138][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     /home/ch61/shiro/integration-tests/jaxrs/app/target/classes/
+[2021-10-31 20:43:00,226][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container is starting...
+[2021-10-31 20:43:00,593][[32mINFO [m][           main][.webbeans.config.BeansDeployer] All injection points were validated successfully.
+[2021-10-31 20:43:00,692][[32mINFO [m][           main][apache.cxf.endpoint.ServerImpl] Setting the server's publish address to be /api
+[2021-10-31 20:43:00,751][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container has started, it took [525] ms.
+[2021-10-31 20:43:00,772][[32mINFO [m][           main][rBase.[Tomcat].[localhost].[/]] Initializing Shiro environment
+[2021-10-31 20:43:00,773][[32mINFO [m][           main][hiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2021-10-31 20:43:00,903][[33mWARN [m][           main][ache.shiro.realm.text.IniRealm] Users or Roles are already populated.  Configured Ini instance will be ignored.
+[2021-10-31 20:43:00,907][[32mINFO [m][           main][hiro.web.env.EnvironmentLoader] Shiro environment initialized in 133 ms.
+[2021-10-31 20:43:00,921][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup] REST Application: /api -> org.apache.shiro.testing.jaxrs.app.JaxRsApplication
+[2021-10-31 20:43:00,922][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      Service URI: /api/troopers      -> org.apache.shiro.testing.jaxrs.app.resources.StormtrooperResource
+[2021-10-31 20:43:00,923][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]            DELETE /api/troopers/{id} ->      void deleteTrooper(StormtrooperId)                                               
+[2021-10-31 20:43:00,923][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]               GET /api/troopers      ->      Collection<Stormtrooper> listTroopers()                                          
+[2021-10-31 20:43:00,923][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]               GET /api/troopers/{id} ->      Stormtrooper getTrooper(StormtrooperId) throws NotFoundException                 
+[2021-10-31 20:43:00,924][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]              POST /api/troopers      ->      Stormtrooper createTrooper(StormtrooperTemplate)                                 
+[2021-10-31 20:43:00,924][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]              POST /api/troopers/{id} ->      Stormtrooper updateTrooper(StormtrooperId, Stormtrooper) throws NotFoundException
+[2021-10-31 20:43:00,924][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      MessageBodyReaders
+[2021-10-31 20:43:00,924][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@17222c11
+[2021-10-31 20:43:00,924][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.FormEncodingProvider@24876a7e
+[2021-10-31 20:43:00,924][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.MultipartProvider@1625789b
+[2021-10-31 20:43:00,924][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.SourceProvider@5a1dddba
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@c4d2c44
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementProvider@13866329
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.meecrowave.cxf.ConfigurableBus$ConfiguredJsonbJaxrsProvider@35e98af
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.StringTextProvider@2db15f70
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.BinaryDataProvider@25974207
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.DataSourceProvider@1f15e689
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      MessageBodyWriters
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@c4d2c44
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.StringTextProvider@2db15f70
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.nio.NioMessageBodyWriter@195113de
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@17222c11
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.FormEncodingProvider@24876a7e
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.MultipartProvider@1625789b
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.SourceProvider@5a1dddba
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementProvider@13866329
+[2021-10-31 20:43:00,925][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.meecrowave.cxf.ConfigurableBus$ConfiguredJsonbJaxrsProvider@35e98af
+[2021-10-31 20:43:00,926][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.BinaryDataProvider@25974207
+[2021-10-31 20:43:00,926][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.DataSourceProvider@1f15e689
+Oct 31, 2021 8:43:01 PM org.apache.johnzon.jaxrs.jsonb.jaxrs.JsonbJaxrsProvider getJsonb
+WARNING: Customizations done on the Jsonb instance will be ignored because a ContextResolver<Jsonb> was found
+Oct 31, 2021 8:43:01 PM org.apache.johnzon.jaxrs.jsonb.jaxrs.JsonbJaxrsProvider getJsonb
+WARNING: Using a ContextResolver<Jsonb>, NoContentException will not be thrown for empty streams
+Oct 31, 2021 8:43:01 PM org.apache.johnzon.jaxrs.jsonb.jaxrs.JsonbJaxrsProvider getJsonb
+WARNING: Using a ContextResolver<Jsonb>, NoContentException will not be thrown for empty streams
+[2021-10-31 20:43:01,731][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container was stopped for context path, []
+[2021-10-31 20:43:01,732][[32mINFO [m][           main][rBase.[Tomcat].[localhost].[/]] Cleaning up Shiro Environment
+[2021-10-31 20:43:01,739][[32mINFO [m][           main][oyote.http11.Http11NioProtocol] Pausing ProtocolHandler ["http-nio-34131"]
+[2021-10-31 20:43:01,750][[32mINFO [m][           main][.catalina.core.StandardService] Stopping service [Tomcat]
+[2021-10-31 20:43:01,752][[32mINFO [m][           main][oyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-34131"]
+[2021-10-31 20:43:01,792][[32mINFO [m][           main][oyote.http11.Http11NioProtocol] Destroying ProtocolHandler ["http-nio-34131"]
+2021-10-31 20:43:01,818 main INFO Log4j appears to be running in a Servlet environment, but there's no log4j-web module available. If you want better web container support, please add the log4j-web JAR to your web archive or server lib directory.
+2021-10-31 20:43:01,835 main INFO Log4j appears to be running in a Servlet environment, but there's no log4j-web module available. If you want better web container support, please add the log4j-web JAR to your web archive or server lib directory.
+[2021-10-31 20:43:01,854][[32mINFO [m][           main][g.apache.meecrowave.Meecrowave] --------------- http://localhost:38659
+[2021-10-31 20:43:01,874][[32mINFO [m][           main][ans.OWBTomcatWebScannerService] OpenWebBeans scanning:
+[2021-10-31 20:43:01,874][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     ${maven}/cxf-integration-cdi-3.4.3.jar
+[2021-10-31 20:43:01,874][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     ${maven}/meecrowave-core-1.2.11.jar
+[2021-10-31 20:43:01,874][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     /home/ch61/shiro/integration-tests/jaxrs/app/target/classes/
+[2021-10-31 20:43:01,888][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container is starting...
+[2021-10-31 20:43:01,965][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container has started, it took [77] ms.
+[2021-10-31 20:43:01,966][[32mINFO [m][           main][rBase.[Tomcat].[localhost].[/]] Initializing Shiro environment
+[2021-10-31 20:43:01,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup] REST Application: /api -> org.apache.shiro.testing.jaxrs.app.JaxRsApplication
+[2021-10-31 20:43:01,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      Service URI: /api/troopers      -> org.apache.shiro.testing.jaxrs.app.resources.StormtrooperResource
+[2021-10-31 20:43:01,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]            DELETE /api/troopers/{id} ->      void deleteTrooper(StormtrooperId)                                               
+[2021-10-31 20:43:01,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]               GET /api/troopers      ->      Collection<Stormtrooper> listTroopers()                                          
+[2021-10-31 20:43:01,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]               GET /api/troopers/{id} ->      Stormtrooper getTrooper(StormtrooperId) throws NotFoundException                 
+[2021-10-31 20:43:01,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]              POST /api/troopers      ->      Stormtrooper createTrooper(StormtrooperTemplate)                                 
+[2021-10-31 20:43:01,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]              POST /api/troopers/{id} ->      Stormtrooper updateTrooper(StormtrooperId, Stormtrooper) throws NotFoundException
+[2021-10-31 20:43:01,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      MessageBodyReaders
+[2021-10-31 20:43:01,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@6b6def36
+[2021-10-31 20:43:01,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.FormEncodingProvider@18907af2
+[2021-10-31 20:43:01,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.MultipartProvider@658e7ead
+[2021-10-31 20:43:01,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.SourceProvider@cfd5cd2
+[2021-10-31 20:43:01,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@762bf32d
+[2021-10-31 20:43:01,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementProvider@6d7740f0
+[2021-10-31 20:43:01,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.meecrowave.cxf.ConfigurableBus$ConfiguredJsonbJaxrsProvider@7b1a30e5
+[2021-10-31 20:43:01,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.StringTextProvider@3957d88b
+[2021-10-31 20:43:01,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.BinaryDataProvider@1152900
+[2021-10-31 20:43:01,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.DataSourceProvider@2fba0dac
+[2021-10-31 20:43:01,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      MessageBodyWriters
+[2021-10-31 20:43:01,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@762bf32d
+[2021-10-31 20:43:01,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.StringTextProvider@3957d88b
+[2021-10-31 20:43:01,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.nio.NioMessageBodyWriter@2b2a4332
+[2021-10-31 20:43:01,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@6b6def36
+[2021-10-31 20:43:01,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.FormEncodingProvider@18907af2
+[2021-10-31 20:43:01,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.MultipartProvider@658e7ead
+[2021-10-31 20:43:01,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.SourceProvider@cfd5cd2
+[2021-10-31 20:43:01,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementProvider@6d7740f0
+[2021-10-31 20:43:01,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.meecrowave.cxf.ConfigurableBus$ConfiguredJsonbJaxrsProvider@7b1a30e5
+[2021-10-31 20:43:01,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.BinaryDataProvider@1152900
+[2021-10-31 20:43:01,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.DataSourceProvider@2fba0dac
+[2021-10-31 20:43:02,012][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container was stopped for context path, []
+[2021-10-31 20:43:02,012][[32mINFO [m][           main][rBase.[Tomcat].[localhost].[/]] Cleaning up Shiro Environment

@@ -1,0 +1,2 @@
+org.apache.shiro.testing.jaxrs.meecrowave.MeecrowaveIT#testGetUsersBasicAuthenticated()
+org.apache.shiro.testing.jaxrs.meecrowave.MeecrowaveIT#testGetUsersUnauthenticated()

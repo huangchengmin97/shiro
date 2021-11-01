@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest" time="19.118" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/ch61/shiro/support/hazelcast/target/test-classes:/home/ch61/shiro/support/hazelcast/target/classes:/home/ch61/shiro/cache/target/classes:/home/ch61/shiro/lang/target/classes:/home/ch61/.m2/repository/com/hazelcast/hazelcast/3.12.6/hazelcast-3.12.6.jar:/home/ch61/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.jar:/home/ch61/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/ch61/.m2/repository/org/slf4j/slf4j-log4j12/1.7.26/slf4j-log4j12-1.7.26.jar:/home/ch61/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/ch61/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/ch61/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ch61/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/ch61/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ch61/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/ch61/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/home/ch61/.m2/repository/org/junit/vintage/junit-vintage-engine/5.8.1/junit-vintage-engine-5.8.1.jar:/home/ch61/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/ch61/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/home/ch61/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/ch61/.m2/repository/org/easymock/easymock/4.0.2/easymock-4.0.2.jar:/home/ch61/.m2/repository/org/objenesis/objenesis/3.0.1/objenesis-3.0.1.jar:/home/ch61/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/home/ch61/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/home/ch61/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar:/home/ch61/.m2/repository/org/codehaus/groovy/groovy/3.0.9/groovy-3.0.9.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="/home/ch61/shiro/support/hazelcast/target/surefire/surefirebooter2976036094883416657.jar /home/ch61/shiro/support/hazelcast/target/surefire 2021-10-31T20-14-59_495-jvmRun1 surefire2891859015567073786tmp surefire_467577583902742351871tmp"/>
+    <property name="surefire.test.class.path" value="/home/ch61/shiro/support/hazelcast/target/test-classes:/home/ch61/shiro/support/hazelcast/target/classes:/home/ch61/shiro/cache/target/classes:/home/ch61/shiro/lang/target/classes:/home/ch61/.m2/repository/com/hazelcast/hazelcast/3.12.6/hazelcast-3.12.6.jar:/home/ch61/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.jar:/home/ch61/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/ch61/.m2/repository/org/slf4j/slf4j-log4j12/1.7.26/slf4j-log4j12-1.7.26.jar:/home/ch61/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/ch61/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/ch61/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ch61/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/ch61/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ch61/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/ch61/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/home/ch61/.m2/repository/org/junit/vintage/junit-vintage-engine/5.8.1/junit-vintage-engine-5.8.1.jar:/home/ch61/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/ch61/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/home/ch61/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/ch61/.m2/repository/org/easymock/easymock/4.0.2/easymock-4.0.2.jar:/home/ch61/.m2/repository/org/objenesis/objenesis/3.0.1/objenesis-3.0.1.jar:/home/ch61/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/home/ch61/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/home/ch61/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar:/home/ch61/.m2/repository/org/codehaus/groovy/groovy/3.0.9/groovy-3.0.9.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="t71T59ABdY8m7odnjzvucoa8vBRNMBDX36miyl+gj50="/>
+    <property name="user.home" value="/home/ch61"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/ch61/shiro/support/hazelcast"/>
+    <property name="file.separator" value="/"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="974622"/>
+    <property name="surefire.real.class.path" value="/home/ch61/shiro/support/hazelcast/target/surefire/surefirebooter2976036094883416657.jar"/>
+    <property name="sun.boot.class.path" value="/home/ch61/shiro/support/hazelcast/.nondex/nondex-instr.jar:/home/ch61/.m2/repository/edu/illinois/nondex-common/1.1.2/nondex-common-1.1.2.jar:/home/ch61/.m2/repository/edu/illinois/nondex-annotations/1.1.2/nondex-annotations-1.1.2.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_292-8u292-b10-0ubuntu1~18.04-b10"/>
+    <property name="user.name" value="ch61"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-161-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/ch61/.m2/repository"/>
+    <property name="nondexDir" value="/home/ch61/shiro/support/hazelcast/.nondex"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="nondexJarDir" value="/home/ch61/shiro/support/hazelcast/.nondex"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_292"/>
+    <property name="user.dir" value="/home/ch61/shiro/support/hazelcast"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="25.292-b10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testUncleanShutdown" classname="org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest" time="4.238">
+    <system-out><![CDATA[2021-10-31 20:21:04,308 WARN [org.apache.shiro.hazelcast.cache.HazelcastCacheManager] - Unable to cleanly shutdown implicitly created HazelcastInstance.  Ignoring (shutting down)... 
+java.lang.IllegalStateException
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManager.destroy(HazelcastCacheManager.java:179)
+	at org.apache.shiro.lang.util.Destroyable$destroy.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest.testUncleanShutdown(HazelcastCacheManagerTest.groovy:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-out>
+    <system-err><![CDATA[Oct 31, 2021 8:21:00 PM com.hazelcast.config.AbstractConfigLocator
+INFO: Loading 'hazelcast-default.xml' from the classpath.
+Oct 31, 2021 8:21:01 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+Oct 31, 2021 8:21:01 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Picked [172.22.150.101]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+Oct 31, 2021 8:21:01 PM com.hazelcast.system
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Hazelcast 3.12.6 (20200130 - be02cc5) starting at [172.22.150.101]:5701
+Oct 31, 2021 8:21:01 PM com.hazelcast.system
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+Oct 31, 2021 8:21:01 PM com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Backpressure is disabled
+Oct 31, 2021 8:21:02 PM com.hazelcast.instance.Node
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Creating MulticastJoiner
+Oct 31, 2021 8:21:02 PM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Starting 2 partition threads and 3 generic threads (1 dedicated for priority tasks)
+Oct 31, 2021 8:21:02 PM com.hazelcast.internal.diagnostics.Diagnostics
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+Oct 31, 2021 8:21:02 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] [172.22.150.101]:5701 is STARTING
+Oct 31, 2021 8:21:04 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] 
+
+Members {size:1, ver:1} [
+	Member [172.22.150.101]:5701 - 5a591e77-c432-4551-a300-9e549336bdf7 this
+]
+
+Oct 31, 2021 8:21:04 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] [172.22.150.101]:5701 is STARTED
+]]></system-err>
+  </testcase>
+  <testcase name="testDestroyExplicit" classname="org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest" time="0.002">
+    <system-err><![CDATA[Oct 31, 2021 8:21:04 PM com.hazelcast.internal.diagnostics.HealthMonitor
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] processors=2, physical.memory.total=1.9G, physical.memory.free=174.7M, swap.space.total=3.8G, swap.space.free=3.8G, heap.memory.used=68.6M, heap.memory.free=100.4M, heap.memory.total=169.0M, heap.memory.max=444.5M, heap.memory.used/total=40.57%, heap.memory.used/max=15.43%, minor.gc.count=0, minor.gc.time=0ms, major.gc.count=0, major.gc.time=0ms, load.process=100.00%, load.system=100.00%, load.systemAverage=1.08, thread.count=38, thread.peakCount=38, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+]]></system-err>
+  </testcase>
+  <testcase name="testImplicitlyCreated" classname="org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest" time="7.363">
+    <system-out><![CDATA[2021-10-31 20:21:11,684 WARN [org.apache.shiro.hazelcast.cache.HazelcastCacheManager] - Unable to cleanly shutdown implicitly created HazelcastInstance.  Ignoring (shutting down)... 
+java.lang.NullPointerException
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManager.destroy(HazelcastCacheManager.java:179)
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManager$MockitoMock$1962353816.destroy$accessor$gWVsIdCe(Unknown Source)
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManager$MockitoMock$1962353816$auxiliary$cKYOfD7w.call(Unknown Source)
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40)
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62)
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:142)
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:45)
+	at org.mockito.Answers.answer(Answers.java:99)
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:110)
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:34)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:82)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:56)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:145)
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManager$MockitoMock$1962353816.destroy(Unknown Source)
+	at org.apache.shiro.lang.util.Destroyable$destroy.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest.testImplicitlyCreated(HazelcastCacheManagerTest.groovy:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-out>
+    <system-err><![CDATA[Oct 31, 2021 8:21:04 PM com.hazelcast.config.AbstractConfigLocator
+INFO: Loading 'hazelcast-default.xml' from the classpath.
+Oct 31, 2021 8:21:04 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+Oct 31, 2021 8:21:04 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Picked [172.22.150.101]:5702, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5702], bind any local is true
+Oct 31, 2021 8:21:04 PM com.hazelcast.system
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Hazelcast 3.12.6 (20200130 - be02cc5) starting at [172.22.150.101]:5702
+Oct 31, 2021 8:21:04 PM com.hazelcast.system
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+Oct 31, 2021 8:21:04 PM com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Backpressure is disabled
+Oct 31, 2021 8:21:04 PM com.hazelcast.instance.Node
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Creating MulticastJoiner
+Oct 31, 2021 8:21:04 PM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Starting 2 partition threads and 3 generic threads (1 dedicated for priority tasks)
+Oct 31, 2021 8:21:04 PM com.hazelcast.internal.diagnostics.Diagnostics
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+Oct 31, 2021 8:21:04 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] [172.22.150.101]:5702 is STARTING
+Oct 31, 2021 8:21:04 PM com.hazelcast.internal.cluster.impl.MulticastJoiner
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Trying to join to discovered node: [172.22.150.101]:5701
+Oct 31, 2021 8:21:04 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Connecting to /172.22.150.101:5701, timeout: 10000, bind-any: true
+Oct 31, 2021 8:21:04 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:5701 and /172.22.150.101:44123
+Oct 31, 2021 8:21:04 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:44123 and /172.22.150.101:5701
+Oct 31, 2021 8:21:10 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] 
+
+Members {size:2, ver:2} [
+	Member [172.22.150.101]:5701 - 5a591e77-c432-4551-a300-9e549336bdf7 this
+	Member [172.22.150.101]:5702 - 0e76e6a9-0408-49d7-bbf4-3fd66d16384f
+]
+
+Oct 31, 2021 8:21:10 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] 
+
+Members {size:2, ver:2} [
+	Member [172.22.150.101]:5701 - 5a591e77-c432-4551-a300-9e549336bdf7
+	Member [172.22.150.101]:5702 - 0e76e6a9-0408-49d7-bbf4-3fd66d16384f this
+]
+
+Oct 31, 2021 8:21:11 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] [172.22.150.101]:5702 is STARTED
+]]></system-err>
+  </testcase>
+  <testcase name="testGetSetHazelcastInstance" classname="org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest" time="0.001"/>
+  <testcase name="testCustomConfig" classname="org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest" time="0.326"/>
+  <testcase name="testDestroy" classname="org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest" time="7.174">
+    <system-err><![CDATA[Oct 31, 2021 8:21:12 PM com.hazelcast.config.AbstractConfigLocator
+INFO: Loading 'hazelcast-default.xml' from the classpath.
+Oct 31, 2021 8:21:12 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+Oct 31, 2021 8:21:12 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Picked [172.22.150.101]:5703, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5703], bind any local is true
+Oct 31, 2021 8:21:12 PM com.hazelcast.system
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Hazelcast 3.12.6 (20200130 - be02cc5) starting at [172.22.150.101]:5703
+Oct 31, 2021 8:21:12 PM com.hazelcast.system
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+Oct 31, 2021 8:21:12 PM com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Backpressure is disabled
+Oct 31, 2021 8:21:12 PM com.hazelcast.instance.Node
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Creating MulticastJoiner
+Oct 31, 2021 8:21:12 PM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Starting 2 partition threads and 3 generic threads (1 dedicated for priority tasks)
+Oct 31, 2021 8:21:12 PM com.hazelcast.internal.diagnostics.Diagnostics
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+Oct 31, 2021 8:21:12 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] [172.22.150.101]:5703 is STARTING
+Oct 31, 2021 8:21:12 PM com.hazelcast.internal.cluster.impl.MulticastJoiner
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Trying to join to discovered node: [172.22.150.101]:5701
+Oct 31, 2021 8:21:12 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Connecting to /172.22.150.101:5701, timeout: 10000, bind-any: true
+Oct 31, 2021 8:21:12 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:5701 and /172.22.150.101:51293
+Oct 31, 2021 8:21:12 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:51293 and /172.22.150.101:5701
+Oct 31, 2021 8:21:18 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] 
+
+Members {size:3, ver:3} [
+	Member [172.22.150.101]:5701 - 5a591e77-c432-4551-a300-9e549336bdf7 this
+	Member [172.22.150.101]:5702 - 0e76e6a9-0408-49d7-bbf4-3fd66d16384f
+	Member [172.22.150.101]:5703 - af709670-711f-43d8-a4fe-9c6a939c26c4
+]
+
+Oct 31, 2021 8:21:18 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] 
+
+Members {size:3, ver:3} [
+	Member [172.22.150.101]:5701 - 5a591e77-c432-4551-a300-9e549336bdf7
+	Member [172.22.150.101]:5702 - 0e76e6a9-0408-49d7-bbf4-3fd66d16384f this
+	Member [172.22.150.101]:5703 - af709670-711f-43d8-a4fe-9c6a939c26c4
+]
+
+Oct 31, 2021 8:21:18 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Connecting to /172.22.150.101:5703, timeout: 10000, bind-any: true
+Oct 31, 2021 8:21:18 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:5703 and /172.22.150.101:59935
+Oct 31, 2021 8:21:18 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] 
+
+Members {size:3, ver:3} [
+	Member [172.22.150.101]:5701 - 5a591e77-c432-4551-a300-9e549336bdf7
+	Member [172.22.150.101]:5702 - 0e76e6a9-0408-49d7-bbf4-3fd66d16384f
+	Member [172.22.150.101]:5703 - af709670-711f-43d8-a4fe-9c6a939c26c4 this
+]
+
+Oct 31, 2021 8:21:18 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Connecting to /172.22.150.101:5702, timeout: 10000, bind-any: true
+Oct 31, 2021 8:21:18 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:59935 and /172.22.150.101:5703
+Oct 31, 2021 8:21:18 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:5702 and /172.22.150.101:46885
+Oct 31, 2021 8:21:18 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:46885 and /172.22.150.101:5702
+Oct 31, 2021 8:21:19 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] [172.22.150.101]:5703 is STARTED
+]]></system-err>
+  </testcase>
+</testsuite>

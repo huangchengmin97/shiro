@@ -1,0 +1,10 @@
+2021-10-31 20:33:52,430 INFO [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'test' does not yet exist.  Creating now. 
+2021-10-31 20:33:52,434 INFO [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [test] 
+2021-10-31 20:33:52,452 INFO [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'test' does not yet exist.  Creating now. 
+2021-10-31 20:33:52,453 INFO [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [test] 
+2021-10-31 20:33:52,467 INFO [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'test' does not yet exist.  Creating now. 
+2021-10-31 20:33:52,468 INFO [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [test] 
+2021-10-31 20:33:52,492 INFO [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'test' does not yet exist.  Creating now. 
+2021-10-31 20:33:52,492 INFO [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [test] 
+2021-10-31 20:33:52,514 INFO [org.apache.shiro.cache.ehcache.EhCacheManager] - Cache with name 'test' does not yet exist.  Creating now. 
+2021-10-31 20:33:52,514 INFO [org.apache.shiro.cache.ehcache.EhCacheManager] - Added EhCache named [test] 

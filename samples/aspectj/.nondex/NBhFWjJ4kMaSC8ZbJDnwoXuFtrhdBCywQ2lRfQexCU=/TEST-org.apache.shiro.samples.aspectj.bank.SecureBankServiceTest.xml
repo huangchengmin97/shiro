@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.891" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="nondexStart" value="0"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/ch61/shiro/samples/aspectj/target/test-classes:/home/ch61/shiro/samples/aspectj/target/classes:/home/ch61/shiro/support/aspectj/target/classes:/home/ch61/shiro/core/target/classes:/home/ch61/shiro/lang/target/classes:/home/ch61/shiro/cache/target/classes:/home/ch61/shiro/crypto/hash/target/classes:/home/ch61/shiro/crypto/core/target/classes:/home/ch61/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/home/ch61/shiro/crypto/support/hashes/argon2/target/classes:/home/ch61/shiro/crypto/support/hashes/bcrypt/target/classes:/home/ch61/shiro/crypto/cipher/target/classes:/home/ch61/shiro/config/core/target/classes:/home/ch61/shiro/config/ogdl/target/classes:/home/ch61/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/home/ch61/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/ch61/shiro/event/target/classes:/home/ch61/.m2/repository/org/aspectj/aspectjrt/1.9.7.M3/aspectjrt-1.9.7.M3.jar:/home/ch61/.m2/repository/org/aspectj/aspectjweaver/1.9.7.M3/aspectjweaver-1.9.7.M3.jar:/home/ch61/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/ch61/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/ch61/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.jar:/home/ch61/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/ch61/.m2/repository/org/slf4j/slf4j-log4j12/1.7.26/slf4j-log4j12-1.7.26.jar:/home/ch61/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/ch61/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ch61/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/ch61/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ch61/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/ch61/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/home/ch61/.m2/repository/org/junit/vintage/junit-vintage-engine/5.8.1/junit-vintage-engine-5.8.1.jar:/home/ch61/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/ch61/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/home/ch61/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/ch61/.m2/repository/org/easymock/easymock/4.0.2/easymock-4.0.2.jar:/home/ch61/.m2/repository/org/objenesis/objenesis/3.0.1/objenesis-3.0.1.jar:/home/ch61/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/home/ch61/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/home/ch61/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar:/home/ch61/.m2/repository/org/codehaus/groovy/groovy/3.0.9/groovy-3.0.9.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="nondexPrintstack" value="false"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="nondexLogging" value="CONFIG"/>
+    <property name="sun.java.command" value="/home/ch61/shiro/samples/aspectj/target/surefire/surefirebooter1833321112003618619.jar /home/ch61/shiro/samples/aspectj/target/surefire 2021-10-31T20-14-56_473-jvmRun1 surefire7454687977342862049tmp surefire_66612877383656578750tmp"/>
+    <property name="surefire.test.class.path" value="/home/ch61/shiro/samples/aspectj/target/test-classes:/home/ch61/shiro/samples/aspectj/target/classes:/home/ch61/shiro/support/aspectj/target/classes:/home/ch61/shiro/core/target/classes:/home/ch61/shiro/lang/target/classes:/home/ch61/shiro/cache/target/classes:/home/ch61/shiro/crypto/hash/target/classes:/home/ch61/shiro/crypto/core/target/classes:/home/ch61/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/home/ch61/shiro/crypto/support/hashes/argon2/target/classes:/home/ch61/shiro/crypto/support/hashes/bcrypt/target/classes:/home/ch61/shiro/crypto/cipher/target/classes:/home/ch61/shiro/config/core/target/classes:/home/ch61/shiro/config/ogdl/target/classes:/home/ch61/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/home/ch61/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/ch61/shiro/event/target/classes:/home/ch61/.m2/repository/org/aspectj/aspectjrt/1.9.7.M3/aspectjrt-1.9.7.M3.jar:/home/ch61/.m2/repository/org/aspectj/aspectjweaver/1.9.7.M3/aspectjweaver-1.9.7.M3.jar:/home/ch61/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/ch61/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/ch61/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.jar:/home/ch61/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/ch61/.m2/repository/org/slf4j/slf4j-log4j12/1.7.26/slf4j-log4j12-1.7.26.jar:/home/ch61/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/ch61/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ch61/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/ch61/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ch61/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/ch61/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/home/ch61/.m2/repository/org/junit/vintage/junit-vintage-engine/5.8.1/junit-vintage-engine-5.8.1.jar:/home/ch61/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/ch61/.m2/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar:/home/ch61/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/ch61/.m2/repository/org/easymock/easymock/4.0.2/easymock-4.0.2.jar:/home/ch61/.m2/repository/org/objenesis/objenesis/3.0.1/objenesis-3.0.1.jar:/home/ch61/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/home/ch61/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/home/ch61/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.13/byte-buddy-agent-1.11.13.jar:/home/ch61/.m2/repository/org/codehaus/groovy/groovy/3.0.9/groovy-3.0.9.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="nondexExecid" value="NBhFWjJ4kMaSC8ZbJDnwoXuFtrhdBCywQ2lRfQexCU="/>
+    <property name="user.home" value="/home/ch61"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/ch61/shiro/samples/aspectj"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="nondexFilter" value=".*"/>
+    <property name="nondexSeed" value="974622"/>
+    <property name="surefire.real.class.path" value="/home/ch61/shiro/samples/aspectj/target/surefire/surefirebooter1833321112003618619.jar"/>
+    <property name="sun.boot.class.path" value="/home/ch61/shiro/samples/aspectj/.nondex/nondex-instr.jar:/home/ch61/.m2/repository/edu/illinois/nondex-common/1.1.2/nondex-common-1.1.2.jar:/home/ch61/.m2/repository/edu/illinois/nondex-annotations/1.1.2/nondex-annotations-1.1.2.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_292-8u292-b10-0ubuntu1~18.04-b10"/>
+    <property name="user.name" value="ch61"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-161-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/ch61/.m2/repository"/>
+    <property name="nondexDir" value="/home/ch61/shiro/samples/aspectj/.nondex"/>
+    <property name="nondexJarDir" value="/home/ch61/shiro/samples/aspectj/.nondex"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_292"/>
+    <property name="user.dir" value="/home/ch61/shiro/samples/aspectj"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="nondexMode" value="FULL"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.292-b10"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testDepositInto_singleTx" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.102">
+    <system-out><![CDATA[[INFO] bank.SecureBankService Bank service started
+[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 1
+
+[INFO] mgt.AbstractValidatingSessionManager Enabling session validation scheduler...
+[INFO] bank.SecureBankService Creating new account for Joe Smith
+[INFO] bank.SecureBankService Getting owner of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.68]
+[INFO] bank.SecureBankService Getting active status of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.68]
+[INFO] bank.SecureBankService Getting balance of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.68]
+[INFO] bank.SecureBankService Getting transactions of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.68]
+[INFO] bank.SecureBankService Getting balance of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.68]
+[INFO] bank.SecureBankService Getting transactions of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.68]
+[INFO] bank.SecureBankService Making deposit of 250.0 into account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Joe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.68]
+[INFO] bank.SecureBankService Getting owner of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Joe Smith,isActive=true,balance=250.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.68]
+[INFO] bank.SecureBankService Getting active status of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Joe Smith,isActive=true,balance=250.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.68]
+[INFO] bank.SecureBankService Getting balance of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Joe Smith,isActive=true,balance=250.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.68]
+[INFO] bank.SecureBankService Getting transactions of account 1
+[INFO] bank.SecureBankService Retrieved account Account[id=1,ownerName=Joe Smith,isActive=true,balance=250.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.68]
+]]></system-out>
+  </testcase>
+  <testcase name="testDepositInto_multiTxs" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.069">
+    <system-out><![CDATA[[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 2
+
+[INFO] bank.SecureBankService Creating new account for Everett Smith
+[INFO] bank.SecureBankService Getting owner of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting active status of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Making deposit of 50.0 into account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting owner of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting active status of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Making deposit of 300.0 into account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting owner of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting active status of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Making deposit of 85.0 into account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=350.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting owner of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting active status of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting owner of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting active status of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting balance of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+[INFO] bank.SecureBankService Getting transactions of account 2
+[INFO] bank.SecureBankService Retrieved account Account[id=2,ownerName=Everett Smith,isActive=true,balance=435.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:15.755]
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateAccount" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.054">
+    <system-out><![CDATA[[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 3
+
+[INFO] bank.SecureBankService Creating new account for Bob Smith
+[INFO] bank.SecureBankService Getting owner of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Bob Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.828]
+[INFO] bank.SecureBankService Getting active status of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Bob Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.828]
+[INFO] bank.SecureBankService Getting balance of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Bob Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.828]
+[INFO] bank.SecureBankService Getting transactions of account 3
+[INFO] bank.SecureBankService Retrieved account Account[id=3,ownerName=Bob Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.828]
+]]></system-out>
+  </testcase>
+  <testcase name="testCloseAccount_alreadyClosed" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.057">
+    <system-out><![CDATA[[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 4
+
+[INFO] bank.SecureBankService Creating new account for Chris Smith
+[INFO] bank.SecureBankService Getting owner of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.882]
+[INFO] bank.SecureBankService Getting active status of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.882]
+[INFO] bank.SecureBankService Getting balance of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.882]
+[INFO] bank.SecureBankService Getting transactions of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.882]
+[INFO] bank.SecureBankService Closing account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.882]
+[INFO] bank.SecureBankService Getting owner of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.882]
+[INFO] bank.SecureBankService Getting active status of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.882]
+[INFO] bank.SecureBankService Getting balance of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.882]
+[INFO] bank.SecureBankService Getting transactions of account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.882]
+[INFO] bank.SecureBankService Closing account 4
+[INFO] bank.SecureBankService Retrieved account Account[id=4,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.882]
+]]></system-out>
+  </testcase>
+  <testcase name="testCloseAccount_zeroBalance" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.056">
+    <system-out><![CDATA[[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 5
+
+[INFO] bank.SecureBankService Creating new account for Chris Smith
+[INFO] bank.SecureBankService Getting owner of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.94]
+[INFO] bank.SecureBankService Getting active status of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.94]
+[INFO] bank.SecureBankService Getting balance of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.94]
+[INFO] bank.SecureBankService Getting transactions of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.94]
+[INFO] bank.SecureBankService Closing account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.94]
+[INFO] bank.SecureBankService Getting owner of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.94]
+[INFO] bank.SecureBankService Getting active status of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.94]
+[INFO] bank.SecureBankService Getting balance of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.94]
+[INFO] bank.SecureBankService Getting transactions of account 5
+[INFO] bank.SecureBankService Retrieved account Account[id=5,ownerName=Chris Smith,isActive=false,balance=0.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:15.94]
+]]></system-out>
+  </testcase>
+  <testcase name="testWithdrawFrom_emptyAccount" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.055">
+    <system-out><![CDATA[[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 6
+
+[INFO] bank.SecureBankService Creating new account for Wally Smith
+[INFO] bank.SecureBankService Getting owner of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Wally Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.998]
+[INFO] bank.SecureBankService Getting active status of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Wally Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.998]
+[INFO] bank.SecureBankService Getting balance of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Wally Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.998]
+[INFO] bank.SecureBankService Getting transactions of account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Wally Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.998]
+[INFO] bank.SecureBankService Making withdrawal of 100.0 from account 6
+[INFO] bank.SecureBankService Retrieved account Account[id=6,ownerName=Wally Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:15.998]
+]]></system-out>
+  </testcase>
+  <testcase name="testWithdrawFrom_notEnoughFunds" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.059">
+    <system-out><![CDATA[[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 7
+
+[INFO] bank.SecureBankService Creating new account for Frank Smith
+[INFO] bank.SecureBankService Getting owner of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+[INFO] bank.SecureBankService Getting active status of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+[INFO] bank.SecureBankService Getting balance of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+[INFO] bank.SecureBankService Getting transactions of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+[INFO] bank.SecureBankService Getting balance of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+[INFO] bank.SecureBankService Getting transactions of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+[INFO] bank.SecureBankService Making deposit of 50.0 into account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+[INFO] bank.SecureBankService Getting owner of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+[INFO] bank.SecureBankService Getting active status of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+[INFO] bank.SecureBankService Getting balance of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+[INFO] bank.SecureBankService Getting transactions of account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+[INFO] bank.SecureBankService Making withdrawal of 100.0 from account 7
+[INFO] bank.SecureBankService Retrieved account Account[id=7,ownerName=Frank Smith,isActive=true,balance=50.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.055]
+]]></system-out>
+  </testcase>
+  <testcase name="testWithdrawFrom_singleTx" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.063">
+    <system-out><![CDATA[[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 8
+
+[INFO] bank.SecureBankService Creating new account for Al Smith
+[INFO] bank.SecureBankService Getting owner of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting active status of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Making deposit of 500.0 into account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting owner of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting active status of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Making withdrawal of 100.0 from account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting owner of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting active status of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting owner of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting active status of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting balance of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+[INFO] bank.SecureBankService Getting transactions of account 8
+[INFO] bank.SecureBankService Retrieved account Account[id=8,ownerName=Al Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.112]
+]]></system-out>
+  </testcase>
+  <testcase name="testWithdrawFrom_manyTxs" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.067">
+    <system-out><![CDATA[[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 9
+
+[INFO] bank.SecureBankService Creating new account for Zoe Smith
+[INFO] bank.SecureBankService Getting owner of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting active status of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Making deposit of 500.0 into account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting owner of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting active status of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Making withdrawal of 100.0 from account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting owner of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting active status of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Making withdrawal of 75.0 from account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=400.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting owner of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting active status of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Making withdrawal of 125.0 from account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=325.0,tx.count=3,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting owner of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting active status of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting owner of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting active status of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting balance of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+[INFO] bank.SecureBankService Getting transactions of account 9
+[INFO] bank.SecureBankService Retrieved account Account[id=9,ownerName=Zoe Smith,isActive=true,balance=200.0,tx.count=4,createdBy=dan,creationDate=2021-10-31 20:23:16.176]
+]]></system-out>
+  </testcase>
+  <testcase name="testCloseAccount_unauthorizedAttempt" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.053">
+    <system-out><![CDATA[[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 10
+
+[INFO] bank.SecureBankService Creating new account for Chris Smith
+[INFO] bank.SecureBankService Getting owner of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.244]
+[INFO] bank.SecureBankService Getting active status of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.244]
+[INFO] bank.SecureBankService Getting balance of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.244]
+[INFO] bank.SecureBankService Getting transactions of account 10
+[INFO] bank.SecureBankService Retrieved account Account[id=10,ownerName=Chris Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.244]
+]]></system-out>
+  </testcase>
+  <testcase name="testWithdrawFrom_upToZero" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.067">
+    <system-out><![CDATA[[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 11
+
+[INFO] bank.SecureBankService Creating new account for Zoe Smith
+[INFO] bank.SecureBankService Getting owner of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting active status of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Making deposit of 500.0 into account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting owner of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting active status of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Making withdrawal of 500.0 from account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=500.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting owner of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting active status of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting owner of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting active status of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting balance of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+[INFO] bank.SecureBankService Getting transactions of account 11
+[INFO] bank.SecureBankService Retrieved account Account[id=11,ownerName=Zoe Smith,isActive=true,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.3]
+]]></system-out>
+  </testcase>
+  <testcase name="testCloseAccount_withBalance" classname="org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest" time="0.069">
+    <system-out><![CDATA[[INFO] bank.SecureBankServiceTest 
+
+#########################
+### STARTING TEST CASE 12
+
+[INFO] bank.SecureBankService Creating new account for Gerry Smith
+[INFO] bank.SecureBankService Getting owner of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting active status of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting balance of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting transactions of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting balance of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting transactions of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Making deposit of 385.0 into account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=0.0,tx.count=0,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting owner of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=385.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting active status of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=385.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting balance of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=385.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting transactions of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=385.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Closing account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=true,balance=385.0,tx.count=1,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting owner of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=false,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting active status of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=false,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting balance of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=false,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+[INFO] bank.SecureBankService Getting transactions of account 12
+[INFO] bank.SecureBankService Retrieved account Account[id=12,ownerName=Gerry Smith,isActive=false,balance=0.0,tx.count=2,createdBy=dan,creationDate=2021-10-31 20:23:16.368]
+]]></system-out>
+  </testcase>
+</testsuite>

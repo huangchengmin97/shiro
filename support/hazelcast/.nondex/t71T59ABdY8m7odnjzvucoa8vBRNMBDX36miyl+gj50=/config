@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/shiro/support/hazelcast/.nondex
+nondexJarDir=/home/ch61/shiro/support/hazelcast/.nondex
+nondexExecid=t71T59ABdY8m7odnjzvucoa8vBRNMBDX36miyl+gj50=
+nondexLogging=CONFIG
+test=

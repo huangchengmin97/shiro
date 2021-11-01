@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/shiro/support/spring-boot/spring-boot-starter/.nondex
+nondexJarDir=/home/ch61/shiro/support/spring-boot/spring-boot-starter/.nondex
+nondexExecid=htAGwzp9vFUzeT2yAMBBC4USwrKCTAytDuC7lSlnV6U=
+nondexLogging=CONFIG
+test=

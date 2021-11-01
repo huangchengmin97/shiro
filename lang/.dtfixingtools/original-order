@@ -1,0 +1,3 @@
+org.apache.shiro.lang.util.ClassUtilsTest#testGetClass()
+org.apache.shiro.lang.util.ClassUtilsTest#testGetPrimitiveClasses()
+org.apache.shiro.lang.util.ClassUtilsTest#testGetPrimitiveArrays()

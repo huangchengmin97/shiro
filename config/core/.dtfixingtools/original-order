@@ -1,0 +1,9 @@
+org.apache.shiro.config.IniTest.testMerge
+org.apache.shiro.config.IniTest.testSplitKeyValueNoValue
+org.apache.shiro.config.IniTest.testCreateWithDefaults
+org.apache.shiro.config.IniTest.testIsContinued
+org.apache.shiro.config.IniTest.testSplitKeyValue
+org.apache.shiro.config.IniTest.testOneSection
+org.apache.shiro.config.IniTest.testNoSections
+org.apache.shiro.config.IniTest.testPutAll
+org.apache.shiro.config.IniTest.testBackslash

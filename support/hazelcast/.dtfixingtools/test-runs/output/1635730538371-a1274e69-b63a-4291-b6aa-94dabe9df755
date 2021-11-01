@@ -1,0 +1,258 @@
+Oct 31, 2021 8:35:40 PM com.hazelcast.config.AbstractConfigLocator
+INFO: Loading 'hazelcast-default.xml' from the classpath.
+Oct 31, 2021 8:35:40 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+Oct 31, 2021 8:35:40 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Picked [172.22.150.101]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+Oct 31, 2021 8:35:40 PM com.hazelcast.system
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Hazelcast 3.12.6 (20200130 - be02cc5) starting at [172.22.150.101]:5701
+Oct 31, 2021 8:35:40 PM com.hazelcast.system
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+Oct 31, 2021 8:35:40 PM com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Backpressure is disabled
+Oct 31, 2021 8:35:41 PM com.hazelcast.instance.Node
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Creating MulticastJoiner
+Oct 31, 2021 8:35:41 PM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Starting 2 partition threads and 3 generic threads (1 dedicated for priority tasks)
+Oct 31, 2021 8:35:41 PM com.hazelcast.internal.diagnostics.Diagnostics
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+Oct 31, 2021 8:35:41 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] [172.22.150.101]:5701 is STARTING
+Oct 31, 2021 8:35:43 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] 
+
+Members {size:1, ver:1} [
+	Member [172.22.150.101]:5701 - 08b1675d-0ed4-4533-8f7d-a084cf2a0418 this
+]
+
+Oct 31, 2021 8:35:43 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] [172.22.150.101]:5701 is STARTED
+2021-10-31 20:35:43,650 WARN [org.apache.shiro.hazelcast.cache.HazelcastCacheManager] - Unable to cleanly shutdown implicitly created HazelcastInstance.  Ignoring (shutting down)... 
+java.lang.IllegalStateException
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManager.destroy(HazelcastCacheManager.java:179)
+	at org.apache.shiro.lang.util.Destroyable$destroy.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest.testUncleanShutdown(HazelcastCacheManagerTest.groovy:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+Oct 31, 2021 8:35:43 PM com.hazelcast.config.AbstractConfigLocator
+INFO: Loading 'hazelcast-default.xml' from the classpath.
+Oct 31, 2021 8:35:43 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+Oct 31, 2021 8:35:43 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Picked [172.22.150.101]:5702, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5702], bind any local is true
+Oct 31, 2021 8:35:43 PM com.hazelcast.system
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Hazelcast 3.12.6 (20200130 - be02cc5) starting at [172.22.150.101]:5702
+Oct 31, 2021 8:35:43 PM com.hazelcast.system
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+Oct 31, 2021 8:35:43 PM com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Backpressure is disabled
+Oct 31, 2021 8:35:43 PM com.hazelcast.instance.Node
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Creating MulticastJoiner
+Oct 31, 2021 8:35:43 PM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Starting 2 partition threads and 3 generic threads (1 dedicated for priority tasks)
+Oct 31, 2021 8:35:43 PM com.hazelcast.internal.diagnostics.Diagnostics
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+Oct 31, 2021 8:35:43 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] [172.22.150.101]:5702 is STARTING
+Oct 31, 2021 8:35:43 PM com.hazelcast.internal.cluster.impl.MulticastJoiner
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Trying to join to discovered node: [172.22.150.101]:5701
+Oct 31, 2021 8:35:43 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Connecting to /172.22.150.101:5701, timeout: 10000, bind-any: true
+Oct 31, 2021 8:35:43 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:5701 and /172.22.150.101:53967
+Oct 31, 2021 8:35:43 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:53967 and /172.22.150.101:5701
+Oct 31, 2021 8:35:49 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] 
+
+Members {size:2, ver:2} [
+	Member [172.22.150.101]:5701 - 08b1675d-0ed4-4533-8f7d-a084cf2a0418 this
+	Member [172.22.150.101]:5702 - 50812253-77ab-4f4f-9df4-2e6c4570c848
+]
+
+Oct 31, 2021 8:35:49 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] 
+
+Members {size:2, ver:2} [
+	Member [172.22.150.101]:5701 - 08b1675d-0ed4-4533-8f7d-a084cf2a0418
+	Member [172.22.150.101]:5702 - 50812253-77ab-4f4f-9df4-2e6c4570c848 this
+]
+
+Oct 31, 2021 8:35:50 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] [172.22.150.101]:5702 is STARTED
+Oct 31, 2021 8:35:50 PM com.hazelcast.config.AbstractConfigLocator
+INFO: Loading 'hazelcast-default.xml' from the classpath.
+Oct 31, 2021 8:35:51 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+Oct 31, 2021 8:35:51 PM com.hazelcast.instance.AddressPicker
+INFO: [LOCAL] [dev] [3.12.6] Picked [172.22.150.101]:5703, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5703], bind any local is true
+Oct 31, 2021 8:35:51 PM com.hazelcast.system
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Hazelcast 3.12.6 (20200130 - be02cc5) starting at [172.22.150.101]:5703
+Oct 31, 2021 8:35:51 PM com.hazelcast.system
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+Oct 31, 2021 8:35:51 PM com.hazelcast.spi.impl.operationservice.impl.BackpressureRegulator
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Backpressure is disabled
+Oct 31, 2021 8:35:51 PM com.hazelcast.instance.Node
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Creating MulticastJoiner
+Oct 31, 2021 8:35:51 PM com.hazelcast.spi.impl.operationexecutor.impl.OperationExecutorImpl
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Starting 2 partition threads and 3 generic threads (1 dedicated for priority tasks)
+Oct 31, 2021 8:35:51 PM com.hazelcast.internal.diagnostics.Diagnostics
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+Oct 31, 2021 8:35:51 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] [172.22.150.101]:5703 is STARTING
+Oct 31, 2021 8:35:51 PM com.hazelcast.internal.cluster.impl.MulticastJoiner
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Trying to join to discovered node: [172.22.150.101]:5701
+Oct 31, 2021 8:35:51 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Connecting to /172.22.150.101:5701, timeout: 10000, bind-any: true
+Oct 31, 2021 8:35:51 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:5701 and /172.22.150.101:53501
+Oct 31, 2021 8:35:51 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:53501 and /172.22.150.101:5701
+Oct 31, 2021 8:35:57 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] 
+
+Members {size:3, ver:3} [
+	Member [172.22.150.101]:5701 - 08b1675d-0ed4-4533-8f7d-a084cf2a0418 this
+	Member [172.22.150.101]:5702 - 50812253-77ab-4f4f-9df4-2e6c4570c848
+	Member [172.22.150.101]:5703 - ab287d8c-2468-42d6-8391-ce7dd67de75d
+]
+
+Oct 31, 2021 8:35:57 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] 
+
+Members {size:3, ver:3} [
+	Member [172.22.150.101]:5701 - 08b1675d-0ed4-4533-8f7d-a084cf2a0418
+	Member [172.22.150.101]:5702 - 50812253-77ab-4f4f-9df4-2e6c4570c848 this
+	Member [172.22.150.101]:5703 - ab287d8c-2468-42d6-8391-ce7dd67de75d
+]
+
+Oct 31, 2021 8:35:57 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Connecting to /172.22.150.101:5703, timeout: 10000, bind-any: true
+Oct 31, 2021 8:35:57 PM com.hazelcast.internal.cluster.ClusterService
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] 
+
+Members {size:3, ver:3} [
+	Member [172.22.150.101]:5701 - 08b1675d-0ed4-4533-8f7d-a084cf2a0418
+	Member [172.22.150.101]:5702 - 50812253-77ab-4f4f-9df4-2e6c4570c848
+	Member [172.22.150.101]:5703 - ab287d8c-2468-42d6-8391-ce7dd67de75d this
+]
+
+Oct 31, 2021 8:35:57 PM com.hazelcast.nio.tcp.TcpIpConnector
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Connecting to /172.22.150.101:5702, timeout: 10000, bind-any: true
+Oct 31, 2021 8:35:57 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:5703 and /172.22.150.101:59611
+Oct 31, 2021 8:35:57 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:59611 and /172.22.150.101:5703
+Oct 31, 2021 8:35:57 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5702 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:5702 and /172.22.150.101:52013
+Oct 31, 2021 8:35:57 PM com.hazelcast.nio.tcp.TcpIpConnection
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Initialized new cluster connection between /172.22.150.101:52013 and /172.22.150.101:5702
+Oct 31, 2021 8:35:58 PM com.hazelcast.core.LifecycleService
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] [172.22.150.101]:5703 is STARTED
+2021-10-31 20:35:58,207 WARN [org.apache.shiro.hazelcast.cache.HazelcastCacheManager] - Unable to cleanly shutdown implicitly created HazelcastInstance.  Ignoring (shutting down)... 
+java.lang.NullPointerException
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManager.destroy(HazelcastCacheManager.java:179)
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManager$MockitoMock$1561617561.destroy$accessor$DT7ATIgt(Unknown Source)
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManager$MockitoMock$1561617561$auxiliary$TCmIGwbU.call(Unknown Source)
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40)
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62)
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:142)
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:45)
+	at org.mockito.Answers.answer(Answers.java:99)
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:110)
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:34)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:82)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:56)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:145)
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManager$MockitoMock$1561617561.destroy(Unknown Source)
+	at org.apache.shiro.lang.util.Destroyable$destroy.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest.testImplicitlyCreated(HazelcastCacheManagerTest.groovy:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+Oct 31, 2021 8:35:58 PM com.hazelcast.instance.Node
+INFO: [172.22.150.101]:5701 [dev] [3.12.6] Running shutdown hook... Current state: ACTIVE
+Oct 31, 2021 8:35:58 PM com.hazelcast.instance.Node
+INFO: [172.22.150.101]:5703 [dev] [3.12.6] Running shutdown hook... Current state: ACTIVE

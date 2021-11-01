@@ -1,0 +1,17 @@
+org.apache.shiro.crypto.cipher.BlowfishCipherServiceTest.testStreamingOperations
+org.apache.shiro.crypto.cipher.BlowfishCipherServiceTest.testBlockOperations
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testCcm
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testCfb
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testCtr
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testEax
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testEcb
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testOcb
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testOfb
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testStreamingOperations
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testNone
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testPcbc
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testBlockOperations
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testAesGcm
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testStreamingOperations_ByteSource
+org.apache.shiro.crypto.cipher.AesCipherServiceTest.testBlockOperations_ByteSource
+org.apache.shiro.crypto.cipher.JcaCipherServiceTest.testDecrypt

@@ -1,0 +1,2 @@
+org.apache.shiro.tools.hasher.HasherTest#testArgon2Hash()
+org.apache.shiro.tools.hasher.HasherTest#testBCryptHash()

@@ -1,0 +1,6 @@
+org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest.testUncleanShutdown
+org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest.testDestroyExplicit
+org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest.testImplicitlyCreated
+org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest.testGetSetHazelcastInstance
+org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest.testCustomConfig
+org.apache.shiro.hazelcast.cache.HazelcastCacheManagerTest.testDestroy

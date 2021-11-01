@@ -1,0 +1,3 @@
+org.apache.shiro.crypto.SecureRandomNumberGeneratorTest.testDefaultNextBytesSize
+org.apache.shiro.crypto.SecureRandomNumberGeneratorTest.testNextBytesWithSize
+org.apache.shiro.crypto.SecureRandomNumberGeneratorTest.testInvalidSecureRandomProperty

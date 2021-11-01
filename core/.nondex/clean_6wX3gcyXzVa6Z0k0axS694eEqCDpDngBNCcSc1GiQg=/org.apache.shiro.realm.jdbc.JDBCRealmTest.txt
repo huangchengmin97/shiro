@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.shiro.realm.jdbc.JDBCRealmTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.737 s - in org.apache.shiro.realm.jdbc.JDBCRealmTest

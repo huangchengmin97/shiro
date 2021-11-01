@@ -1,0 +1,106 @@
+log4j:WARN No appenders could be found for logger (org.apache.shiro.lang.io.ResourceUtils).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.RestrictedDummyService.retrieve())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresPermissions(logical=AND, value=[dummy:admin])]
+	target     : org.apache.shiro.aspectj.RestrictedDummyService@62fdb4a6
+2021-10-31 20:33:43.427 [Thread[main,5,main]] * LOG * retrieve *RESTRICTED*
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.retrieve())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresPermissions(logical=AND, value=[dummy:user])]
+	target     : org.apache.shiro.aspectj.RestrictedDummyService@62fdb4a6
+2021-10-31 20:33:43.435 [Thread[main,5,main]] * LOG * retrieve
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.change())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresAuthentication(), @org.apache.shiro.authz.annotation.RequiresPermissions(logical=AND, value=[dummy:admin])]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.RestrictedDummyService.retrieve())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresPermissions(logical=AND, value=[dummy:admin])]
+	target     : org.apache.shiro.aspectj.RestrictedDummyService@62fdb4a6
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.guest())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresGuest()]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.peek())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresUser()]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.change())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresAuthentication(), @org.apache.shiro.authz.annotation.RequiresPermissions(logical=AND, value=[dummy:admin])]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.guest())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresGuest()]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+2021-10-31 20:33:43.448 [Thread[main,5,main]] * LOG * guest
+2021-10-31 20:33:43.449 [Thread[main,5,main]] * LOG * anonymous
+2021-10-31 20:33:43.449 [Thread[main,5,main]] * LOG * anonymous
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.peek())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresUser()]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+2021-10-31 20:33:43.45 [Thread[main,5,main]] * LOG * peek
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.guest())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresGuest()]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.retrieve())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresPermissions(logical=AND, value=[dummy:user])]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+2021-10-31 20:33:43.452 [Thread[main,5,main]] * LOG * retrieve
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.change())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresAuthentication(), @org.apache.shiro.authz.annotation.RequiresPermissions(logical=AND, value=[dummy:admin])]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.retrieve())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresPermissions(logical=AND, value=[dummy:user])]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+2021-10-31 20:33:43.453 [Thread[main,5,main]] * LOG * retrieve
+2021-10-31 20:33:43.454 [Thread[main,5,main]] * LOG * change
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.peek())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresUser()]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+2021-10-31 20:33:43.454 [Thread[main,5,main]] * LOG * peek
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.peek())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresUser()]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+2021-10-31 20:33:43.456 [Thread[main,5,main]] * LOG * peek
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.retrieve())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresPermissions(logical=AND, value=[dummy:user])]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe
+2021-10-31 20:33:43.457 [Thread[main,5,main]] * LOG * retrieve
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.RestrictedDummyService.retrieve())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresPermissions(logical=AND, value=[dummy:admin])]
+	target     : org.apache.shiro.aspectj.RestrictedDummyService@62fdb4a6
+2021-10-31 20:33:43.46 [Thread[main,5,main]] * LOG * anonymous
+TRACE - #### Invoking a method decorated with a Shiro annotation
+	kind       : method-execution
+	joinPoint  : execution(void org.apache.shiro.aspectj.SecuredDummyService.retrieve())
+	annotations: [@org.apache.shiro.authz.annotation.RequiresPermissions(logical=AND, value=[dummy:user])]
+	target     : org.apache.shiro.aspectj.SecuredDummyService@21a947fe

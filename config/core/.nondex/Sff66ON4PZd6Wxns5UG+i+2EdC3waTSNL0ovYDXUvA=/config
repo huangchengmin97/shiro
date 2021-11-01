@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/shiro/config/core/.nondex
+nondexJarDir=/home/ch61/shiro/config/core/.nondex
+nondexExecid=Sff66ON4PZd6Wxns5UG+i+2EdC3waTSNL0ovYDXUvA=
+nondexLogging=CONFIG
+test=

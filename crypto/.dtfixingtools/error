@@ -1,0 +1,3 @@
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+
+org.apache.shiro:shiro-crypto:2.0.0-SNAPSHOT

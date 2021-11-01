@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.shiro.crypto.support.hashes.argon2.Argon2HashTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.807 s - in org.apache.shiro.crypto.support.hashes.argon2.Argon2HashTest

@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/shiro/support/spring/.nondex
+nondexJarDir=/home/ch61/shiro/support/spring/.nondex
+nondexExecid=nX0WUI6AJcm4yABi997ksNyFD+ydqu6FQAMqh4vNP5Y=
+nondexLogging=CONFIG
+test=

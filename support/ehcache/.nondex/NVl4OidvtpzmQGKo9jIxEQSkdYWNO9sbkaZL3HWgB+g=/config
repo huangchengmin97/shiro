@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/shiro/support/ehcache/.nondex
+nondexJarDir=/home/ch61/shiro/support/ehcache/.nondex
+nondexExecid=NVl4OidvtpzmQGKo9jIxEQSkdYWNO9sbkaZL3HWgB+g=
+nondexLogging=CONFIG
+test=

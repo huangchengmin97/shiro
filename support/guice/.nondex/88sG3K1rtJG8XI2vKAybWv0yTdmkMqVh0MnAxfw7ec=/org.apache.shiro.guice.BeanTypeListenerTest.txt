@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.shiro.guice.BeanTypeListenerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.723 s - in org.apache.shiro.guice.BeanTypeListenerTest

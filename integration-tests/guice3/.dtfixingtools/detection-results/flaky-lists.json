@@ -1,0 +1,1 @@
+{"dts":[{"name":"org.apache.shiro.samples.guice.ContainerIntegrationIT.logIn","intended":{"order":["org.apache.shiro.samples.guice.ContainerIntegrationIT.logInAndRememberMe"],"result":"ERROR","testRunId":"1635730941389-5565f5da-7c0c-4ff0-b912-0efa49fc8794"},"revealed":{"order":[],"result":"SKIPPED","testRunId":"1635730942895-af07df1c-b2d3-4e10-b5bb-a70d7261bdf8"}}]}

@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/shiro/crypto/hash/.nondex
+nondexJarDir=/home/ch61/shiro/crypto/hash/.nondex
+nondexExecid=GFiVy2JfbNeL9aJMaPIQStMhsCcs9N5tBISPWljSw=
+nondexLogging=CONFIG
+test=

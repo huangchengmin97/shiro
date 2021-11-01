@@ -1,0 +1,1 @@
+{"id":"1635730944381-3184be32-8f33-4b04-af36-3e77b6ee6eed","testOrder":["org.apache.shiro.samples.guice.ContainerIntegrationIT.logIn"],"results":{"org.apache.shiro.samples.guice.ContainerIntegrationIT.logIn":{"name":"org.apache.shiro.samples.guice.ContainerIntegrationIT.logIn","result":"SKIPPED","time":-1.0,"stackTrace":[]}}}

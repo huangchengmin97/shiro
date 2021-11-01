@@ -1,0 +1,291 @@
+[2021-10-31 20:43:16,297][[32mINFO [m][           main][oyote.http11.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-42399"]
+[2021-10-31 20:43:16,306][[32mINFO [m][           main][.catalina.core.StandardService] Starting service [Tomcat]
+[2021-10-31 20:43:16,307][[32mINFO [m][           main][e.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.44]
+[2021-10-31 20:43:16,313][[32mINFO [m][           main][oyote.http11.Http11NioProtocol] Starting ProtocolHandler ["http-nio-42399"]
+[2021-10-31 20:43:16,325][[32mINFO [m][           main][g.apache.meecrowave.Meecrowave] --------------- http://localhost:42399
+[2021-10-31 20:43:16,468][[32mINFO [m][           main][.catalina.core.StandardContext] Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+[2021-10-31 20:43:16,468][[32mINFO [m][           main][.catalina.core.StandardContext] Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+[2021-10-31 20:43:16,468][[32mINFO [m][           main][.catalina.core.StandardContext] Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+[2021-10-31 20:43:16,572][[32mINFO [m][           main][ans.OWBTomcatWebScannerService] OpenWebBeans scanning:
+[2021-10-31 20:43:16,573][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     ${maven}/cxf-integration-cdi-3.4.3.jar
+[2021-10-31 20:43:16,574][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     ${maven}/meecrowave-core-1.2.11.jar
+[2021-10-31 20:43:16,574][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     /home/ch61/shiro/integration-tests/jaxrs/app/target/classes/
+[2021-10-31 20:43:16,660][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container is starting...
+[2021-10-31 20:43:17,064][[32mINFO [m][           main][.webbeans.config.BeansDeployer] All injection points were validated successfully.
+[2021-10-31 20:43:17,154][[32mINFO [m][           main][apache.cxf.endpoint.ServerImpl] Setting the server's publish address to be /api
+[2021-10-31 20:43:17,202][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container has started, it took [542] ms.
+[2021-10-31 20:43:17,221][[32mINFO [m][           main][rBase.[Tomcat].[localhost].[/]] Initializing Shiro environment
+[2021-10-31 20:43:17,221][[32mINFO [m][           main][hiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2021-10-31 20:43:17,329][[33mWARN [m][           main][ache.shiro.realm.text.IniRealm] Users or Roles are already populated.  Configured Ini instance will be ignored.
+[2021-10-31 20:43:17,334][[32mINFO [m][           main][hiro.web.env.EnvironmentLoader] Shiro environment initialized in 111 ms.
+[2021-10-31 20:43:17,348][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup] REST Application: /api -> org.apache.shiro.testing.jaxrs.app.JaxRsApplication
+[2021-10-31 20:43:17,349][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      Service URI: /api/troopers      -> org.apache.shiro.testing.jaxrs.app.resources.StormtrooperResource
+[2021-10-31 20:43:17,349][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]            DELETE /api/troopers/{id} ->      void deleteTrooper(StormtrooperId)                                               
+[2021-10-31 20:43:17,350][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]               GET /api/troopers      ->      Collection<Stormtrooper> listTroopers()                                          
+[2021-10-31 20:43:17,350][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]               GET /api/troopers/{id} ->      Stormtrooper getTrooper(StormtrooperId) throws NotFoundException                 
+[2021-10-31 20:43:17,350][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]              POST /api/troopers      ->      Stormtrooper createTrooper(StormtrooperTemplate)                                 
+[2021-10-31 20:43:17,350][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]              POST /api/troopers/{id} ->      Stormtrooper updateTrooper(StormtrooperId, Stormtrooper) throws NotFoundException
+[2021-10-31 20:43:17,350][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      MessageBodyReaders
+[2021-10-31 20:43:17,350][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@17222c11
+[2021-10-31 20:43:17,350][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.FormEncodingProvider@24876a7e
+[2021-10-31 20:43:17,350][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.MultipartProvider@1625789b
+[2021-10-31 20:43:17,350][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.SourceProvider@5a1dddba
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@c4d2c44
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementProvider@13866329
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.meecrowave.cxf.ConfigurableBus$ConfiguredJsonbJaxrsProvider@35e98af
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.StringTextProvider@2db15f70
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.BinaryDataProvider@25974207
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.DataSourceProvider@1f15e689
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      MessageBodyWriters
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@c4d2c44
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.StringTextProvider@2db15f70
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.nio.NioMessageBodyWriter@195113de
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@17222c11
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.FormEncodingProvider@24876a7e
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.MultipartProvider@1625789b
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.SourceProvider@5a1dddba
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementProvider@13866329
+[2021-10-31 20:43:17,351][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.meecrowave.cxf.ConfigurableBus$ConfiguredJsonbJaxrsProvider@35e98af
+[2021-10-31 20:43:17,352][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.BinaryDataProvider@25974207
+[2021-10-31 20:43:17,352][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.DataSourceProvider@1f15e689
+[2021-10-31 20:43:17,656][[33mWARN [m][io-42399-exec-1][xf.phase.PhaseInterceptorChain] Interceptor for {http://resources.app.jaxrs.testing.shiro.apache.org/}StormtrooperResource has thrown exception, unwinding now
+org.apache.shiro.authz.UnauthenticatedException: Attempting to perform a user-only operation.  The current Subject is not a user (they haven't been authenticated or remembered from a previous login).  Access denied.
+	at org.apache.shiro.authz.aop.UserAnnotationHandler.assertAuthorized(UserAnnotationHandler.java:61) ~[classes/:?]
+	at org.apache.shiro.web.jaxrs.AnnotationAuthorizationFilter.filter(AnnotationAuthorizationFilter.java:78) ~[classes/:?]
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.runContainerRequestFilters(JAXRSUtils.java:1745) ~[cxf-rt-frontend-jaxrs-3.4.3.jar:3.4.3]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:206) ~[cxf-rt-frontend-jaxrs-3.4.3.jar:3.4.3]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:79) ~[cxf-rt-frontend-jaxrs-3.4.3.jar:3.4.3]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308) [cxf-core-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121) [cxf-core-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:222) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [meecrowave-specs-api-1.2.11.jar:1.2.11]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.meecrowave.cxf.CxfCdiAutoSetup$1.doFilter(CxfCdiAutoSetup.java:122) [meecrowave-core-1.2.11.jar:1.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [classes/:?]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450) [classes/:?]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [classes/:?]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [classes/:?]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [classes/:?]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:388) [classes/:?]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.44.jar:9.0.44]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+[2021-10-31 20:43:17,664][[33mWARN [m][io-42399-exec-1][xf.phase.PhaseInterceptorChain] Exception in handleFault on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSDefaultFaultOutInterceptor@1737fe5d
+org.apache.cxf.interceptor.Fault: Attempting to perform a user-only operation.  The current Subject is not a user (they haven't been authenticated or remembered from a previous login).  Access denied.
+	at org.apache.cxf.interceptor.AbstractFaultChainInitiatorObserver.onMessage(AbstractFaultChainInitiatorObserver.java:75) [cxf-core-3.4.3.jar:3.4.3]
+	at org.apache.cxf.phase.PhaseInterceptorChain.wrapExceptionAsFault(PhaseInterceptorChain.java:374) [cxf-core-3.4.3.jar:3.4.3]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:332) [cxf-core-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121) [cxf-core-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:222) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [meecrowave-specs-api-1.2.11.jar:1.2.11]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.meecrowave.cxf.CxfCdiAutoSetup$1.doFilter(CxfCdiAutoSetup.java:122) [meecrowave-core-1.2.11.jar:1.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [classes/:?]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450) [classes/:?]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [classes/:?]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [classes/:?]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [classes/:?]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:388) [classes/:?]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.44.jar:9.0.44]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.shiro.authz.UnauthenticatedException: Attempting to perform a user-only operation.  The current Subject is not a user (they haven't been authenticated or remembered from a previous login).  Access denied.
+	at org.apache.shiro.authz.aop.UserAnnotationHandler.assertAuthorized(UserAnnotationHandler.java:61) ~[classes/:?]
+	at org.apache.shiro.web.jaxrs.AnnotationAuthorizationFilter.filter(AnnotationAuthorizationFilter.java:78) ~[classes/:?]
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.runContainerRequestFilters(JAXRSUtils.java:1745) ~[cxf-rt-frontend-jaxrs-3.4.3.jar:3.4.3]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:206) ~[cxf-rt-frontend-jaxrs-3.4.3.jar:3.4.3]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:79) ~[cxf-rt-frontend-jaxrs-3.4.3.jar:3.4.3]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308) [cxf-core-3.4.3.jar:3.4.3]
+	... 51 more
+[2021-10-31 20:43:17,666][[1;31mERROR[m][io-42399-exec-1][actFaultChainInitiatorObserver] An unexpected error occurred during error handling. No further error processing will occur.
+org.apache.cxf.interceptor.Fault: Attempting to perform a user-only operation.  The current Subject is not a user (they haven't been authenticated or remembered from a previous login).  Access denied.
+	at org.apache.cxf.interceptor.AbstractFaultChainInitiatorObserver.onMessage(AbstractFaultChainInitiatorObserver.java:75) [cxf-core-3.4.3.jar:3.4.3]
+	at org.apache.cxf.phase.PhaseInterceptorChain.wrapExceptionAsFault(PhaseInterceptorChain.java:374) [cxf-core-3.4.3.jar:3.4.3]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:332) [cxf-core-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121) [cxf-core-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:222) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [meecrowave-specs-api-1.2.11.jar:1.2.11]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:273) [cxf-rt-transports-http-3.4.3.jar:3.4.3]
+	at org.apache.meecrowave.cxf.CxfCdiAutoSetup$1.doFilter(CxfCdiAutoSetup.java:122) [meecrowave-core-1.2.11.jar:1.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [classes/:?]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [classes/:?]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450) [classes/:?]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [classes/:?]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [classes/:?]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [classes/:?]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:388) [classes/:?]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [classes/:?]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-catalina-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote-9.0.44.jar:9.0.44]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-9.0.44.jar:9.0.44]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.shiro.authz.UnauthenticatedException: Attempting to perform a user-only operation.  The current Subject is not a user (they haven't been authenticated or remembered from a previous login).  Access denied.
+	at org.apache.shiro.authz.aop.UserAnnotationHandler.assertAuthorized(UserAnnotationHandler.java:61) ~[classes/:?]
+	at org.apache.shiro.web.jaxrs.AnnotationAuthorizationFilter.filter(AnnotationAuthorizationFilter.java:78) ~[classes/:?]
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.runContainerRequestFilters(JAXRSUtils.java:1745) ~[cxf-rt-frontend-jaxrs-3.4.3.jar:3.4.3]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:206) ~[cxf-rt-frontend-jaxrs-3.4.3.jar:3.4.3]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:79) ~[cxf-rt-frontend-jaxrs-3.4.3.jar:3.4.3]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308) ~[cxf-core-3.4.3.jar:3.4.3]
+	... 51 more
+[2021-10-31 20:43:17,702][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container was stopped for context path, []
+[2021-10-31 20:43:17,702][[32mINFO [m][           main][rBase.[Tomcat].[localhost].[/]] Cleaning up Shiro Environment
+[2021-10-31 20:43:17,710][[32mINFO [m][           main][oyote.http11.Http11NioProtocol] Pausing ProtocolHandler ["http-nio-42399"]
+[2021-10-31 20:43:17,717][[32mINFO [m][           main][.catalina.core.StandardService] Stopping service [Tomcat]
+[2021-10-31 20:43:17,719][[32mINFO [m][           main][oyote.http11.Http11NioProtocol] Stopping ProtocolHandler ["http-nio-42399"]
+[2021-10-31 20:43:17,763][[32mINFO [m][           main][oyote.http11.Http11NioProtocol] Destroying ProtocolHandler ["http-nio-42399"]
+2021-10-31 20:43:17,815 main INFO Log4j appears to be running in a Servlet environment, but there's no log4j-web module available. If you want better web container support, please add the log4j-web JAR to your web archive or server lib directory.
+2021-10-31 20:43:17,830 main INFO Log4j appears to be running in a Servlet environment, but there's no log4j-web module available. If you want better web container support, please add the log4j-web JAR to your web archive or server lib directory.
+[2021-10-31 20:43:17,862][[32mINFO [m][           main][g.apache.meecrowave.Meecrowave] --------------- http://localhost:37033
+[2021-10-31 20:43:17,880][[32mINFO [m][           main][ans.OWBTomcatWebScannerService] OpenWebBeans scanning:
+[2021-10-31 20:43:17,881][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     ${maven}/cxf-integration-cdi-3.4.3.jar
+[2021-10-31 20:43:17,881][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     ${maven}/meecrowave-core-1.2.11.jar
+[2021-10-31 20:43:17,881][[32mINFO [m][           main][ans.OWBTomcatWebScannerService]     /home/ch61/shiro/integration-tests/jaxrs/app/target/classes/
+[2021-10-31 20:43:17,906][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container is starting...
+[2021-10-31 20:43:17,967][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container has started, it took [61] ms.
+[2021-10-31 20:43:17,969][[32mINFO [m][           main][rBase.[Tomcat].[localhost].[/]] Initializing Shiro environment
+[2021-10-31 20:43:17,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup] REST Application: /api -> org.apache.shiro.testing.jaxrs.app.JaxRsApplication
+[2021-10-31 20:43:17,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      Service URI: /api/troopers      -> org.apache.shiro.testing.jaxrs.app.resources.StormtrooperResource
+[2021-10-31 20:43:17,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]            DELETE /api/troopers/{id} ->      void deleteTrooper(StormtrooperId)                                               
+[2021-10-31 20:43:17,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]               GET /api/troopers      ->      Collection<Stormtrooper> listTroopers()                                          
+[2021-10-31 20:43:17,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]               GET /api/troopers/{id} ->      Stormtrooper getTrooper(StormtrooperId) throws NotFoundException                 
+[2021-10-31 20:43:17,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]              POST /api/troopers      ->      Stormtrooper createTrooper(StormtrooperTemplate)                                 
+[2021-10-31 20:43:17,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]              POST /api/troopers/{id} ->      Stormtrooper updateTrooper(StormtrooperId, Stormtrooper) throws NotFoundException
+[2021-10-31 20:43:17,979][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      MessageBodyReaders
+[2021-10-31 20:43:17,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@2df3545d
+[2021-10-31 20:43:17,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.FormEncodingProvider@67e77f52
+[2021-10-31 20:43:17,980][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.MultipartProvider@7ead1d80
+[2021-10-31 20:43:17,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.SourceProvider@1d1bf7bf
+[2021-10-31 20:43:17,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@1182413a
+[2021-10-31 20:43:17,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementProvider@4d43a1b7
+[2021-10-31 20:43:17,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.meecrowave.cxf.ConfigurableBus$ConfiguredJsonbJaxrsProvider@5b14f482
+[2021-10-31 20:43:17,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.StringTextProvider@75ad30c1
+[2021-10-31 20:43:17,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.BinaryDataProvider@fe8aaeb
+[2021-10-31 20:43:17,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.DataSourceProvider@6b9697ae
+[2021-10-31 20:43:17,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]      MessageBodyWriters
+[2021-10-31 20:43:17,981][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@1182413a
+[2021-10-31 20:43:17,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.StringTextProvider@75ad30c1
+[2021-10-31 20:43:17,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.nio.NioMessageBodyWriter@5cf0673d
+[2021-10-31 20:43:17,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@2df3545d
+[2021-10-31 20:43:17,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.FormEncodingProvider@67e77f52
+[2021-10-31 20:43:17,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.MultipartProvider@7ead1d80
+[2021-10-31 20:43:17,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.SourceProvider@1d1bf7bf
+[2021-10-31 20:43:17,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.JAXBElementProvider@4d43a1b7
+[2021-10-31 20:43:17,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.meecrowave.cxf.ConfigurableBus$ConfiguredJsonbJaxrsProvider@5b14f482
+[2021-10-31 20:43:17,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.BinaryDataProvider@fe8aaeb
+[2021-10-31 20:43:17,982][[32mINFO [m][           main][meecrowave.cxf.CxfCdiAutoSetup]        - org.apache.cxf.jaxrs.provider.DataSourceProvider@6b9697ae
+Oct 31, 2021 8:43:18 PM org.apache.johnzon.jaxrs.jsonb.jaxrs.JsonbJaxrsProvider getJsonb
+WARNING: Customizations done on the Jsonb instance will be ignored because a ContextResolver<Jsonb> was found
+Oct 31, 2021 8:43:18 PM org.apache.johnzon.jaxrs.jsonb.jaxrs.JsonbJaxrsProvider getJsonb
+WARNING: Using a ContextResolver<Jsonb>, NoContentException will not be thrown for empty streams
+Oct 31, 2021 8:43:18 PM org.apache.johnzon.jaxrs.jsonb.jaxrs.JsonbJaxrsProvider getJsonb
+WARNING: Using a ContextResolver<Jsonb>, NoContentException will not be thrown for empty streams
+[2021-10-31 20:43:18,580][[32mINFO [m][           main][ifecycle.WebContainerLifecycle] OpenWebBeans Container was stopped for context path, []
+[2021-10-31 20:43:18,581][[32mINFO [m][           main][rBase.[Tomcat].[localhost].[/]] Cleaning up Shiro Environment

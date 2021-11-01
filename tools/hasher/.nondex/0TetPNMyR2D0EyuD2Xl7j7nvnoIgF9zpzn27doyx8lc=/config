@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/shiro/tools/hasher/.nondex
+nondexJarDir=/home/ch61/shiro/tools/hasher/.nondex
+nondexExecid=0TetPNMyR2D0EyuD2Xl7j7nvnoIgF9zpzn27doyx8lc=
+nondexLogging=CONFIG
+test=

@@ -1,0 +1,5 @@
+org.apache.shiro.spring.boot.autoconfigure.ShiroSpringAutoConfigurationTest.testMinimalConfiguration
+org.apache.shiro.spring.boot.autoconfigure.SpringFactoriesTest.springFactoriesConfigContainsNoWhitespace
+org.apache.shiro.spring.boot.autoconfigure.web.DisabledGlobalFiltersTest.testGlobalFiltersDisabled
+org.apache.shiro.spring.boot.autoconfigure.web.ConfiguredGlobalFiltersTest.testGlobalFiltersConfigured
+org.apache.shiro.spring.boot.autoconfigure.web.ShiroWebSpringAutoConfigurationTest.testMinimalConfiguration

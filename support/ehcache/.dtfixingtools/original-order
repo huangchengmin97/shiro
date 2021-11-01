@@ -1,0 +1,6 @@
+org.apache.shiro.cache.ehcache.EhCacheManagerTest.testClear
+org.apache.shiro.cache.ehcache.EhCacheManagerTest.testKeys
+org.apache.shiro.cache.ehcache.EhCacheManagerTest.testLazyCacheManagerCreationWithoutCallingInit
+org.apache.shiro.cache.ehcache.EhCacheManagerTest.testCacheManagerCreationDuringInit
+org.apache.shiro.cache.ehcache.EhCacheManagerTest.testRemove
+org.apache.shiro.cache.ehcache.EhCacheManagerTest.testValues

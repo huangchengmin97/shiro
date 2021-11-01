@@ -1,0 +1,10 @@
+org.apache.shiro.web.jaxrs.ShiroSecurityContextTest.testGetUserPrincipalNoPrincipal
+org.apache.shiro.web.jaxrs.ShiroSecurityContextTest.testUserInRoleTrue
+org.apache.shiro.web.jaxrs.ShiroSecurityContextTest.testGetUserPrincipalPrincipalObject
+org.apache.shiro.web.jaxrs.ShiroSecurityContextTest.testPrincipalEquals
+org.apache.shiro.web.jaxrs.ShiroSecurityContextTest.testUserInRoleFalse
+org.apache.shiro.web.jaxrs.ShiroSecurityContextTest.testGetUserPrincipalWithString
+org.apache.shiro.web.jaxrs.ShiroSecurityContextTest.testIsSecure
+org.apache.shiro.web.jaxrs.ShiroSecurityContextTest.testGetAuthenticationScheme
+org.apache.shiro.web.jaxrs.SubjectPrincipalRequestFilterTest.testWrapContext
+org.apache.shiro.web.jaxrs.UnauthorizedExceptionExceptionMapperTest.testUnauthorizedException

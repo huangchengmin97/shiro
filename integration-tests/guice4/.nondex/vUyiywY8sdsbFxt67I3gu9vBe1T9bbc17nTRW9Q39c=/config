@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/shiro/integration-tests/guice4/.nondex
+nondexJarDir=/home/ch61/shiro/integration-tests/guice4/.nondex
+nondexExecid=vUyiywY8sdsbFxt67I3gu9vBe1T9bbc17nTRW9Q39c=
+nondexLogging=CONFIG
+test=

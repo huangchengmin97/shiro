@@ -1,0 +1,2 @@
+org.apache.shiro.testing.jaxrs.openliberty.OpenLibertyIT#testGetUsersBasicAuthenticated()
+org.apache.shiro.testing.jaxrs.openliberty.OpenLibertyIT#testGetUsersUnauthenticated()

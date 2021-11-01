@@ -1,0 +1,3 @@
+org.apache.shiro.crypto.support.hashes.argon2.Argon2HashTest#testArgon2HashShiro1Format()
+org.apache.shiro.crypto.support.hashes.argon2.Argon2HashTest#testArgon2Hash()
+org.apache.shiro.crypto.support.hashes.argon2.Argon2HashTest#testFromStringMatchesPw()

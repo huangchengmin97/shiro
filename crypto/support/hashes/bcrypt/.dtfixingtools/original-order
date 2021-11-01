@@ -1,0 +1,4 @@
+org.apache.shiro.crypto.support.hashes.bcrypt.BCryptHashTest#testCreateHashGivenSalt()
+org.apache.shiro.crypto.support.hashes.bcrypt.BCryptHashTest#toBase64EqualsInput()
+org.apache.shiro.crypto.support.hashes.bcrypt.BCryptHashTest#testMatchesPassword()
+org.apache.shiro.crypto.support.hashes.bcrypt.BCryptHashTest#testCreateHashGenerateSaltIterations()

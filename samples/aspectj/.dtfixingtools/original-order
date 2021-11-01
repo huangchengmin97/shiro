@@ -1,0 +1,12 @@
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testDepositInto_singleTx
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testDepositInto_multiTxs
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testCreateAccount
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testCloseAccount_alreadyClosed
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testCloseAccount_zeroBalance
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testWithdrawFrom_emptyAccount
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testWithdrawFrom_notEnoughFunds
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testWithdrawFrom_singleTx
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testWithdrawFrom_manyTxs
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testCloseAccount_unauthorizedAttempt
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testWithdrawFrom_upToZero
+org.apache.shiro.samples.aspectj.bank.SecureBankServiceTest.testCloseAccount_withBalance

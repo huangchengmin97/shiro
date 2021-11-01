@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/shiro/crypto/support/hashes/argon2/.nondex
+nondexJarDir=/home/ch61/shiro/crypto/support/hashes/argon2/.nondex
+nondexExecid=fcuQf979FMj+ECmt4ZfjeLEXmRqtyv0bI6vq+iZGR5k=
+nondexLogging=CONFIG
+test=

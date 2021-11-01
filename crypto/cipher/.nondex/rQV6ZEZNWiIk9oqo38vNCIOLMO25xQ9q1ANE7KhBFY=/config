@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/shiro/crypto/cipher/.nondex
+nondexJarDir=/home/ch61/shiro/crypto/cipher/.nondex
+nondexExecid=rQV6ZEZNWiIk9oqo38vNCIOLMO25xQ9q1ANE7KhBFY=
+nondexLogging=CONFIG
+test=
